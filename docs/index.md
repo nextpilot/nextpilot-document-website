@@ -1,4 +1,8 @@
 ---
+title: NextPilot 文档中心
+description: >-
+  NextPilot 国产先进自动驾驶仪文档中心 —— 提供快速入门、飞控设置、飞行仿真、
+  高级功能等完整使用手册，涵盖多旋翼、固定翼、复合翼等多种机型的技术文档。
 hide:
   - navigation
   - toc

@@ -1,5 +1,24 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <meta name="keywords" content="NextPilot, 自动驾驶仪, 飞控, 飞行控制系统, RT-Thread, PX4, 无人机, 多旋翼, 固定翼, 复合翼, VTOL, RTK, 导航飞控, 大气数据计算机, 飞行仿真, 无人机运行识别">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NextPilot",
+    "url": "https://docs.nextpilot.org",
+    "logo": "https://docs.nextpilot.org/favicon.png",
+    "description": "国产先进自动驾驶仪，基于RT-Thread实时操作系统与PX4核心算法，提供军工级高可靠飞行控制系统解决方案",
+    "sameAs": [
+      "https://github.com/nextpilot",
+      "https://space.bilibili.com/1327597550"
+    ]
+  }
+  </script>
+{% endblock %}
+
 {% block analytics %}
 <script>
 var _hmt = _hmt || [];

@@ -1,4 +1,9 @@
 ---
+title: NextPilot Documentation Center
+description: >-
+  NextPilot advanced autopilot documentation — complete user manuals covering
+  quick start, flight controller setup, flight simulation, and advanced features
+  for multirotor, fixed-wing, VTOL, and more UAV platforms.
 hide:
   - navigation
   - toc

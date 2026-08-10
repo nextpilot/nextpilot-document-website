@@ -1,7 +1,10 @@
 site_name: NextPilot 文档中心
 site_url: https://docs.nextpilot.org
 site_author: NextPilot Development Team
-site_description: NextPilot, a powerful, scalable and advanced autopilot.
+site_description: >-
+  NextPilot 国产先进自动驾驶仪 —— 基于 RT-Thread 实时操作系统与 PX4 核心算法，
+  支持多旋翼、固定翼、复合翼等多种机型，提供军工级高可靠的飞行控制系统解决方案，
+  广泛应用于教育、科研和工业领域。
 
 # repo_name: nextpilot.github.io
 # repo_url: https://github.com/nextpilot/nextpilot.github.io/
@@ -103,13 +106,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# - mdx_gh_links:
-#       user: mkdocs
-#       repo: mkdocs
-# - mkdocs-click
-# - callouts
-
 plugins:
+  # - optimize
+  - meta
   - search:
      lang: [zh, en]
   - tags
@@ -137,8 +136,10 @@ plugins:
           build: true
       reconfigure_material: true
   - mike
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: datetime
 
 not_in_nav: |
   /**/SUMMARY.md
