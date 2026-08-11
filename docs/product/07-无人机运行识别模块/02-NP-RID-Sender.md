@@ -1,10 +1,11 @@
 ---
-title: NP-RID-Sender 无人机运行识别发射器
+title: NP-RID-Sender
 description: >-
   NP-RID-Sender 广播式无人机运行识别发射器，满足 GB 46750-2025 标准，
   支持 MAVLink/DroneCAN 协议连接飞控，通过 WiFi 或蓝牙广播无人机运行状态，
   适配 Ardupilot、PX4 等主流飞控，满足无人机飞行监管需求。
 ---
+
 # 无人机运行识别发射器
 
 <style>
@@ -93,8 +94,6 @@ NP-RID-Sender是NextPilot推出的一款广播式无人机运行识别发射器�
 | UART1 | RX: GPIO2<br />TX: GPIO3   | **飞控串口**<br />默认波特率57600                         |
 | CAN   | RX: GPIO4<br />TX: GPIO5   | 需要外接CAN驱动器才可以使用                               |
 
-
-
 ## 快速使用
 
 ### 设置无人机基本信息
@@ -176,7 +175,7 @@ param set GB_OP_CATEGORY 1
 
 > 说明：
 >
-> 这里连接的是TELEM1，其默认波特率为57600，如果需要连接其他飞控串口，请设置RID模块的串口波特率。例如`param set 
+> 这里连接的是TELEM1，其默认波特率为57600，如果需要连接其他飞控串口，请设置RID模块的串口波特率。例如`param set
 >
 > 其他类型飞控的连接方式大同小异，只要确保通过飞控提供供电、并且将串口收发交叉连接即可！
 
@@ -188,7 +187,7 @@ param set GB_OP_CATEGORY 1
 
 无人机上电后，可将无人机置为室外空旷环境，进行搜星定位。
 
-RID上电后，自动启动WiFi热点（热点名称NP-RID-xxxxxx，密码nextpilot），通过笔记本连接热点后，打开浏览器，输入http://192.168.4.1，即可显示设备运行状态。
+RID上电后，自动启动WiFi热点（热点名称NP-RID-xxxxxx，密码nextpilot），通过笔记本连接热点后，打开浏览器，输入<http://192.168.4.1，即可显示设备运行状态。>
 
 ![image-20260806213805631](imgs\image-20260806213805631.png)
 
@@ -278,4 +277,3 @@ RID上电后，自动启动WiFi热点（热点名称NP-RID-xxxxxx，密码nextpi
 ![image-20260806213848443](imgs\image-20260806213848443.png)
 
 升级后设备自动重启。
-

@@ -1,10 +1,11 @@
 ---
-title: NP-BASE-H50 地面差分基准站
+title: NP-BASE-H50
 description: >-
   NP-BASE-H50 是 NextPilot 自研的便携式地面差分基准站，支持全星座多频点
   GNSS 卫星板卡，可输出 RTCM 差分修正数据与 RTK 定位结果，
   配合机载RTK模块实现厘米级定位，适用于无人机地面基准站应用场景。
 ---
+
 # NP-BASE-H05
 
 ## 简介

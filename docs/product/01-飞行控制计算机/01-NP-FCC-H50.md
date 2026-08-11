@@ -1,10 +1,11 @@
 ---
-title: NP-FCC-H50 导航飞控计算机
+title: NP-FCC-H50
 description: >-
   NP-FCC-H50 是 NextPilot 自研的高性能工业级一体化导航飞控，
   内置双冗余IMU、双频RTK定位，支持动平台起降、视觉导航、集群编队，
   适用于10kg~300kg级多旋翼、固定翼、垂起、倾转等机型。
 ---
+
 # NP-FCC-H05
 
 ## 简介

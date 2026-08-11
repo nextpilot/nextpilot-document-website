@@ -1,11 +1,12 @@
 ---
-title: NP-Simulator 飞行训练模拟器
+title: NP-SIM-H50
 description: >-
   NP-Simulator 高等级无人机飞行训练模拟器，采用虚幻引擎5（UE5）沉浸式视景与
   六自由度飞行动力学模型，支持 HIL/SITL 双模仿真、全地形全天候仿真、
   多机协同编队训练，提供基地级和便携式两种产品形态。
 ---
-# 飞行训练模拟器
+
+# NP-SIM-H50
 
 ## 简介
 
