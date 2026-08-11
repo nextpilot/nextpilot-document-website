@@ -39,6 +39,8 @@ table td:nth-child(4) {
 
 NP-RID-Sender是NextPilot推出的一款广播式无人机运行识别发射器，满足GB 46750-2025标准要求，可通过WiFi或蓝牙广播无人机运行状态信号，满足对无人机飞行监管需求。目前支持MAVLink、DroneCAN协议连接，支持的飞控有Ardupilot、PX4等，**如需要支持其他飞控或协议，可定制开发**。
 
+购买途径：[首页-NextPilot-淘宝网](https://shop103678810.taobao.com/category.htm?spm=pc_detail.30350276.shop_block.dshopinfo.52f17dd6b1ptE2)
+
 ### 产品功能
 
 - 具备与飞控通信获取无人机运行状态的功能；
