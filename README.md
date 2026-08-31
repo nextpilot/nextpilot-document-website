@@ -1,5 +1,11 @@
 # Nextpilot Document Website
 
+> ⚠️ **重要通知** - 本仓库已归档
+>
+> 该仓库已停止维护，请访问新的仓库：[nextpilot-official-website](https://github.com/nextpilot/nextpilot-official-website)
+>
+> 官方网站已迁移至：<https://nextpilot.org>，原域名 <https://docs.nextpilot.org> 自动跳转到新的网站。
+
 ## 如何使用
 
 本仓库托管 [Nextpilot Document Website](https://github.com/nextpilot/nextpilot.github.io) 托管了NextPilot Document Website网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
