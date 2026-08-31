@@ -8,7 +8,7 @@
 
 ## 如何使用
 
-本仓库托管 [Nextpilot Document Website](https://github.com/nextpilot/nextpilot.github.io) 托管了NextPilot Document Website网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
+本仓库托管了 NextPilot Document Website 网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
 
 - 官方网站：<https://docs.nextpilot.org>
 
